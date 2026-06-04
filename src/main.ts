@@ -43,7 +43,7 @@ async function bootstrap() {
   const port = process.env.PORT ?? 3000;
 
   const swaggerConfig = new DocumentBuilder()
-    .setTitle('🚀 TaskFlow Pro API')
+    .setTitle('Tatiana API')
     .setDescription(
       'API completa para gestión de tareas y proyectos con autenticación segura.\n\n' +
         '## Características\n' +
