@@ -84,8 +84,6 @@ async function bootstrap() {
       'support@taskflowpro.com',
     )
     .setLicense('MIT', 'https://opensource.org/licenses/MIT')
-    .addServer(`http://localhost:${port}`, 'Desarrollo')
-    .addServer('https://api.taskflowpro.com', 'Producción')
     .addBearerAuth(
       {
         type: 'http',
